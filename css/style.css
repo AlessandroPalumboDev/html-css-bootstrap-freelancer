@@ -1,3 +1,5 @@
+/* COLORI */
+
 .ap_bgcolor_heder{
     background-color: #2C3E50;
 }
@@ -32,4 +34,12 @@
 
 .ap_color_acqua{
     color: #1ABC9C;
+}
+
+
+/* BLOCCHI COLORATI */
+.blocco{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
 }
