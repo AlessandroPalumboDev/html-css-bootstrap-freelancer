@@ -48,7 +48,15 @@
     width: 200px;
 }
 
+.ap_w_full{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .ap_content{
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
