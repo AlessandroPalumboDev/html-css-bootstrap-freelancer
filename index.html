@@ -7,15 +7,30 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="ap_bgcolor_heder">
-        <div class="container text-light">
-            <div class="row">
-                <div class="col">LOGO</div>
-                <div class="col d-none d-md-block text-end">MENU'</div>
-                <div class="col d-sm-block d-md-none text-end">BURGER</div>
+    <header class="ap_bgcolor_heder text-uppercase py-2">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container">
+              <a class="navbar-brand  fw-bold" href="#">start bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
+
     <main>
         <section class="jumbo ap_bgcolor_acqua mb-5 p-5">
             <div class="container text-light">
@@ -39,22 +54,22 @@
                 <div class="row g-4">
                     <h2 class="text-center mb-4">PORTFOLIO</h2>
                     <hr>
-                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 col-xl-4 d-flex justify-content-center">
                         <div class="blocco ap_bgcolor_bordeaux"></div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 col-xl-4 d-flex justify-content-center">
                         <div class="blocco ap_bgcolor_celestino"></div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 col-xl-4 d-flex justify-content-center">
                         <div class="blocco bg-black"></div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 col-xl-4 d-flex justify-content-center">
                         <div class="blocco ap_bgcolor_celeste"></div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 col-xl-4 d-flex justify-content-center">
                         <div class="blocco ap_bgcolor_blu"></div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 col-xl-4 d-flex justify-content-center">
                         <div class="blocco ap_bgcolor_grigio"></div>
                     </div>
                 </div>
@@ -68,12 +83,12 @@
                         ABOUT
                     </h3>
                     <hr>
-                    <div class="col-8 col-md-4">
+                    <div class="col-8 col-lg-4">
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dicta eos neque. Perspiciatis deserunt dolorem officia omnis, doloremque aspernatur, unde laudantium ipsa enim saepe dicta eligendi est delectus eveniet illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique maiores culpa mollitia, nesciunt, id facere quisquam officiis impedit ut veniam tempore laboriosam veritatis? Numquam assumenda sapiente, veritatis deserunt repellat nostrum?
                         </p>
                     </div>
-                    <div class="col-8 col-md-4">
+                    <div class="col-8 col-lg-4">
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dicta eos neque. Perspiciatis deserunt dolorem officia omnis, doloremque aspernatur, unde laudantium ipsa enim saepe dicta eligendi est delectus eveniet illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique maiores culpa mollitia, nesciunt, id facere quisquam officiis impedit ut veniam tempore laboriosam veritatis? Numquam assumenda sapiente, veritatis deserunt repellat nostrum?
                         </p>
@@ -103,7 +118,7 @@
         <section class="footer-top ap_bgcolor_footer p-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-4 mb-3">
+                    <div class="col-12 col-lg-4 mb-3">
                         <h5>
                             LOCATION
                         </h5>
@@ -111,7 +126,7 @@
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         </p>
                     </div>
-                    <div class="col-12 col-md-4 mb-3">
+                    <div class="col-12 col-lg-4 mb-3">
                         <h5>
                             AROUND THE WEB
                         </h5>
@@ -119,7 +134,7 @@
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         </p>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-lg-4">
                         <h5>
                             ABOUT FREELANCER
                         </h5>
@@ -143,5 +158,6 @@
             </div>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
