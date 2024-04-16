@@ -8,26 +8,6 @@
     background-color: #1ABC9C;
 }
 
-.ap_bgcolor_bordeaux{
-    background-color: #BA4B63;
-}
-
-.ap_bgcolor_celestino{
-    background-color: #1EA4B6;
-}
-
-.ap_bgcolor_celeste{
-    background-color: #1C83C1;
-}
-
-.ap_bgcolor_blu{
-    background-color: #0E38B5;
-}
-
-.ap_bgcolor_grigio{
-    background-color: #CCB2A3;
-}
-
 .ap_bgcolor_footer{
     background-color: #3A546D;
 }
@@ -44,6 +24,7 @@
     width: 100%;
 }
 
+/* UTILITIES */
 .ap_w_200{
     width: 200px;
 }
@@ -63,5 +44,10 @@
 .ap_svg_white{
     filter: invert(100%);
     width: 20px;
+}
+
+.col-12 button:hover .ap_svg_white{
+    filter: invert(0);
+    transition: 90ms;
 }
 
