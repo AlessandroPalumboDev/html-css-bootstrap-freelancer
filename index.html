@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
+    <!-- HEADER -->
     <header class="ap_bgcolor_heder text-uppercase py-2">
+        <!-- NAVBAR PRESA DAI COMPONENTS DI BOOTSTRAP -->
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container">
               <a class="navbar-brand  fw-bold" href="#">start bootstrap</a>
@@ -30,20 +33,32 @@
             </div>
           </nav>
     </header>
+    <!-- FINE HEADER -->
 
+    <!-- MAIN -->
     <main>
-        <section class="jumbo ap_bgcolor_acqua mb-5 p-5">
+
+        <!-- JUMBO -->
+        <section class="jumbo ap_bgcolor_acqua mb-5 py-4">
             <div class="container text-light">
                 <div class="row">
                     <div class="col-12 text-center d-flex flex-column align-items-center">
-                        <div class="blocco mb-3">
-                            IMG
+                        <div class="ap_content mb-3">
+                            <img class="ap_w_200" src="./img/avatar.svg" alt="">
                         </div>
-                        <h2>
+                        <h1 class="text-uppercase">
                             START BOOTSTRAP
-                        </h2>
-                        <hr>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        </h1>
+                        <div class="col-4 col-lg-3 col-xxl-2 d-flex">
+                            <div class="ap_content ">
+                                <hr class="border border-2 opacity-100 rounded">
+                            </div>
+                            <h2 class="fw-bold mx-2 ">&starf;</h2>
+                            <div class="ap_content ">
+                                <hr class="border border-2 opacity-100 rounded">
+                            </div>
+                        </div>
+                        <p class="text-uppercase">graphic artist - web designer - illustrator</p>
                     </div>
                 </div>
             </div>
@@ -114,7 +129,12 @@
             </div>
         </section>
     </main>
+    <!-- FINE MAIN-->
+
+    <!-- FOOTER -->
     <footer class="text-light text-center">
+
+        <!-- FOOTER-TOP -->
         <section class="footer-top ap_bgcolor_footer p-5">
             <div class="container">
                 <div class="row">
@@ -144,8 +164,10 @@
                     </div>
                 </div>
             </div>
-
         </section>
+        <!-- FINE FOOTER-TOP -->
+
+        <!-- FOOTER-BOTTOM -->
         <section class="footer-bottom ap_bgcolor_heder p-4">
             <div class="container">
                 <div class="row">
@@ -157,7 +179,11 @@
                 </div>
             </div>
         </section>
+        <!-- FINE FOOTER-BOTTOM -->
     </footer>
+    <!-- FINE FOOTER -->
+
+    <!-- COLLEGAMENTO JS DI BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
