@@ -72,3 +72,25 @@
     padding: 10px;
     filter: invert(100%);
 }
+
+.ap_separatore_stellina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.ap_separatore_stellina > *{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.ap_separatore_stellina:before, .ap_separatore_stellina:after{
+    content: '';
+    background-color: currentColor;
+    border-radius: 5px;
+    height: 4px;
+    width: 10%;
+    max-width: 250px;
+    display: block;
+}
